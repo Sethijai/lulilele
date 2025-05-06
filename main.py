@@ -602,6 +602,9 @@ async def txt_handler(bot: Client, m: Message):
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
+                           f"🛑**Send** /stop **to stop process**\n┃\n" \
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ELIESE🐦](https://t.me/+MdZ2996M2Gmsdc43MWFl)"                    
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -625,6 +628,9 @@ async def txt_handler(bot: Client, m: Message):
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
+                           f"🛑**Send** /stop **to stop process**\n┃\n" \
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ELIESE🐦](https://t.me/+MdZ2996Mec43MWFl)"                    
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -648,6 +654,9 @@ async def txt_handler(bot: Client, m: Message):
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
+                           f"🛑**Send** /stop **to stop process**\n┃\n" \
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ELISESE🐦](https://t.me/+MdZ2996M2GwfMWFl)"                    
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
